@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-size: 16px;
+  font-family: "Roboto","Microsoft JhengHei","PingFangTC-Regular"; }
+  body .wrap {
+    margin: 0 auto;
+    width: 465px;
+    border-top: 8px solid #0275D8; }
+    body .wrap .stepBar {
+      width: 250px;
+      height: 16px;
+      margin: 0 auto;
+      margin-top: 54px; }
+      body .wrap .stepBar > * {
+        position: relative; }
+        body .wrap .stepBar > * > .nowhere {
+          display: inline-block;
+          width: 8px;
+          height: 8px;
+          border: 1px solid #fff;
+          margin: 0 5px;
+          border-radius: 50%;
+          background: #0275D8;
+          border: solid 2px #0275D8;
+          position: absolute;
+          left: -7px;
+          top: -2px; }
+        body .wrap .stepBar > *::before {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          border: 1px solid #fff;
+          margin: 0 5px;
+          border-radius: 50%;
+          background: transparent;
+          border: 2px solid #BEE1FF;
+          content: "";
+          position: absolute;
+          left: -11px;
+          top: -6px; }
+        body .wrap .stepBar > *::after {
+          position: absolute;
+          content: "";
+          left: 9px;
+          top: 1px;
+          width: 70px;
+          height: 2px;
+          border: 1px solid #BEE1FF; }
+      body .wrap .stepBar .active::before {
+        border: 2px solid #0275D8; }
+      body .wrap .stepBar .step4::after {
+        position: initial;
+        width: 0;
+        height: 0;
+        border: none; }
+    body .wrap .welcome {
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 40px; }
+      body .wrap .welcome h1 {
+        font-size: 48px;
+        color: #000;
+        font-weight: lighter; }
+      body .wrap .welcome p {
+        font-size: 24px;
+        font-weight: lighter;
+        margin-top: 5px; }
+    body .wrap .userInfo {
+      margin-top: 24px; }
+      body .wrap .userInfo label {
+        font-size: 20px;
+        color: #000000;
+        font-weight: bolder;
+        padding-bottom: 8px; }
+      body .wrap .userInfo .input-group {
+        margin-bottom: 24px; }
+        body .wrap .userInfo .input-group .form-control {
+          border: 2px solid #000;
+          border-radius: 8px;
+          outline: none;
+          -webkit-box-shadow: unset;
+                  box-shadow: unset; }
+    body .wrap .btn-next {
+      background: #BEE1FF;
+      border: 2px solid #BEE1FF;
+      border-radius: 8px;
+      width: 100%;
+      height: 52px;
+      color: white;
+      font-size: 20px;
+      margin-top: 16px; }
+
+/*# sourceMappingURL=all.css.map */
